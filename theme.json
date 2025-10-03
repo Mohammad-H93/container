@@ -2,15 +2,24 @@
   "version": "1.0",
   "themeOverrides": {
     "components": {
+      "AppBuilderTemplateSelector": {
+        "defaultProps": { "template": "app-shell" }
+      },
       "AppBuilderAppShellTemplatePage": {
         "defaultProps": {
+          "headerHeight": { "base": "7em", "md": "7em" },
           "navbarBreakpoint": "1px",
-          "navbarWidth": { "md": 280, "lg": 320 },
+          "navbarWidth": { "md": 420, "lg": 480 },
           "columns": 4,
           "rightColumns": 0,
           "rows": 1,
           "bottomRows": 0,
-          "bottomFullWidth": false
+          "bottomFullWidth": false,
+          "styles": {
+            "header": { "background": "#222" },
+            "navbar": { "background": "rgba(30, 58, 138, 0.85)" },   // deep blue @ 85%
+            "main":   { "background": "#111" }                       // darker canvas
+          }
         }
       }
     }
