@@ -4,8 +4,7 @@
     "components": {
       "AppBuilderAppShellTemplatePage": {
         "defaultProps": {
-          "headerHeight": { "base": "4em", "md": "4em" },
-          "navbarBreakpoint": "300px",
+          "navbarBreakpoint": "1px",
           "navbarWidth": { "md": 280, "lg": 320 },
           "columns": 4,
           "rightColumns": 0,
