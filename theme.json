@@ -2,25 +2,24 @@
   "version": "1.0",
   "themeOverrides": {
     "breakpoints": {
-      "xs": "90px",
+      "xs": "100px",
       "sm": "140px",
       "md": "160px",
       "lg": "180px",
       "xl": "200px"
     },
-    "components": {
-      "AppBuilderTemplateSelector": {
-        "defaultProps": { "template": "app-shell" }
-      },
-      "AppBuilderAppShellTemplatePage": {
-        "defaultProps": {
-          "navbarWidth": { "xs": 220, "sm": 240, "md": 260, "lg": 300, "xl": 320 },
-          "columns": 4,
-          "rightColumns": 0,
-          "rows": 1,
-          "bottomRows": 0
-        }
-      }
-    }
+    "primaryColor": "teal",
+     "ViewportBranding": {
+                "defaultProps": {
+                    "light": {
+                        "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
+                    },
+                    "dark": {
+                        "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
+                    }
+                }
+            }
+
+
   }
 }
