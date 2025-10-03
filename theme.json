@@ -3,7 +3,9 @@
   "themeOverrides": {
     "components": {
       "AppBuilderTemplateSelector": {
-        "defaultProps": { "template": "grid" }
+        "defaultProps": {
+          "template": "grid"
+        }
       },
       "AppBuilderGridTemplatePage": {
         "defaultProps": {
