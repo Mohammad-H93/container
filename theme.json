@@ -17,7 +17,8 @@
                     "dark": {
                         "logo": "https://termite.tools/app/assets/images/logo2.png"
                     }
-                }
+                },
+                "busyGraphic": "https://termite.tools/app/assets/images/logo2.png"
             }
 
 
