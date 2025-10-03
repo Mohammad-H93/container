@@ -2,7 +2,7 @@
   "version": "1.0",
   "themeOverrides": {
     "breakpoints": {
-      "xs": "100px",
+      "xs": "90px",
       "sm": "140px",
       "md": "160px",
       "lg": "180px",
