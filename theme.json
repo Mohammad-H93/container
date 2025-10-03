@@ -9,18 +9,27 @@
       "xl": "200px"
     },
     "primaryColor": "teal",
-     "ViewportBranding": {
-                "defaultProps": {
-                    "light": {
-                        "logo": "https://termite.tools/app/assets/images/logo2.png"
-                    },
-                    "dark": {
-                        "logo": "https://termite.tools/app/assets/images/logo2.png"
-                    }
-                },
-                "busyGraphic": "https://termite.tools/app/assets/images/logo2.png"
+    "components": {
+      "AppBuilderAppShellTemplatePage": {
+        "defaultProps": {
+          "styles": {
+            "navbar": {
+              "background": "#0E1117"
             }
-
-
+          }
+        }
+      },
+      "ViewportBranding": {
+        "defaultProps": {
+          "light": {
+            "logo": "https://termite.tools/app/assets/images/logo2.png"
+          },
+          "dark": {
+            "logo": "https://termite.tools/app/assets/images/logo2.png"
+          }
+        },
+        "busyGraphic": "https://termite.tools/app/assets/images/logo2.png"
+      }
+    }
   }
 }
