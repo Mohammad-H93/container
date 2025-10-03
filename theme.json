@@ -12,10 +12,10 @@
      "ViewportBranding": {
                 "defaultProps": {
                     "light": {
-                        "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
+                        "logo": "https://termite.tools/app/assets/images/logo2.png"
                     },
                     "dark": {
-                        "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
+                        "logo": "https://termite.tools/app/assets/images/logo2.png"
                     }
                 }
             }
