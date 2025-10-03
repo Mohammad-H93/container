@@ -17,8 +17,8 @@
           "bottomFullWidth": false,
           "styles": {
             "header": { "background": "#222" },
-            "navbar": { "background": "rgba(30, 58, 138, 0.85)" },   // deep blue @ 85%
-            "main":   { "background": "#111" }                       // darker canvas
+            "navbar": { "background": "rgba(30,58,138,0.85)" },
+            "main": { "background": "#111" }
           }
         }
       }
