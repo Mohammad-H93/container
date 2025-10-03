@@ -7,6 +7,20 @@
       "md": "160px",
       "lg": "180px",
       "xl": "200px"
+    },
+    "components": {
+      "AppBuilderTemplateSelector": {
+        "defaultProps": { "template": "app-shell" }
+      },
+      "AppBuilderAppShellTemplatePage": {
+        "defaultProps": {
+          "navbarWidth": { "xs": 220, "sm": 240, "md": 260, "lg": 300, "xl": 320 },
+          "columns": 4,
+          "rightColumns": 0,
+          "rows": 1,
+          "bottomRows": 0
+        }
+      }
     }
   }
 }
