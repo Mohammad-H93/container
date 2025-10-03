@@ -2,18 +2,16 @@
   "version": "1.0",
   "themeOverrides": {
     "components": {
-      "AppBuilderTemplateSelector": {
+      "AppBuilderAppShellTemplatePage": {
         "defaultProps": {
-          "template": "grid"
-        }
-      },
-      "AppBuilderGridTemplatePage": {
-        "defaultProps": {
+          "headerHeight": { "base": "4em", "md": "4em" },
+          "navbarBreakpoint": "300px",
+          "navbarWidth": { "md": 280, "lg": 320 },
           "columns": 4,
-          "leftColumns": 1,
           "rightColumns": 0,
           "rows": 1,
-          "bottomRows": 0
+          "bottomRows": 0,
+          "bottomFullWidth": false
         }
       }
     }
